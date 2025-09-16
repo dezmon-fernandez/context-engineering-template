@@ -5,8 +5,8 @@ Starter template for powering projects driven by AI development.
 ## Quick Start
 ```bash
 # 1. Clone this template
-git clone https://github.com/coleam00/Context-Engineering-Intro.git
-cd Context-Engineering-Intro
+git clone git@github.com:dezmon-fernandez/context-engineering-template.git
+cd context-engineering-template
 
 # 2. Set up your project rules (optional - template provided)
 # Edit CLAUDE.md to add your project-specific guidelines
@@ -15,7 +15,7 @@ cd Context-Engineering-Intro
 # Place relevant code examples in the examples/ folder
 
 # 4. Create your initial feature request
-# Edit INITIAL.md with your feature requirements
+# Edit FEATURE-INIT.md with your feature requirements
 
 # 5. Generate a comprehensive PRP (Product Requirements Prompt)
 # In Claude Code, run:
