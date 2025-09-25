@@ -1,7 +1,6 @@
 # context-engineering-template
 Starter template for powering projects driven by AI development.
 
-
 ## Quick Start
 ```bash
 # 1. Clone this template
@@ -25,3 +24,39 @@ cd context-engineering-template
 # In Claude Code, run:
 /execute-prp PRPs/your-feature-name.md
 ```
+
+## Directory Structure
+
+```
+context-engineering-template/
+├── .claude/                     # Claude Code configuration and custom commands
+├── generative-agent-rules/      # AI agent configuration and rules
+├── PRPs/                        # Product Requirements Prompts storage
+├── ARCHON.md                    # Archon integration documentation
+├── CLAUDE.md                    # Global context engineering rules
+├── INITIAL.md                   # Feature requirements template
+├── INITIAL-FULL-DETAIL.md       # Detailed feature requirements example
+├── .env.example                 # Environment variables template
+├── .gitignore                   # Git ignore patterns
+└── README.md                    # Project documentation
+```
+
+### File & Folder Purposes
+
+**Core Framework Files:**
+- `CLAUDE.md` - Global rules and principles for all context engineering work
+- `INITIAL.md` - Template for defining initial feature requirements
+- `INITIAL-FULL-DETAIL.md` - Example of detailed feature requirements
+
+**Claude Code Integration:**
+- `.claude/` - Custom slash commands for Claude Code workflow automation
+
+**Product Requirements Prompts:**
+- `PRPs/` - Generated Product Requirements Prompts and templates
+
+**AI Agent Configuration:**
+- `generative-agent-rules/` - Rules and configurations for AI agents
+
+**Integration & Setup:**
+- `ARCHON.md` - Multi-agent workflow documentation
+- `.env.example` - Environment configuration template
